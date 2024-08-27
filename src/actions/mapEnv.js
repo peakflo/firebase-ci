@@ -108,6 +108,8 @@ export default async function mapEnv(copySettings) {
     return null
   }
 
+  info(`setConfigArgs: ${JSON.stringify(setConfigArgs)}`)
+
   info('Mapping Environment to Firebase Functions...')
 
   // Run command to set functions config
